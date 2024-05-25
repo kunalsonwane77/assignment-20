@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+
+
+.sidebar{
+   
+    background-color: rgb(181, 209, 234);
+    min-height: 100vh;
+    width: 300px;
+    text-align: center;
+   
+}
+.content{
+    width: 100%;
+    background-color: antiquewhite;
+   
+}
+.container{
+   
+    display: flex;
+    min-height: 100vh;
+}
+
+ 
+
+.icon-img{
+    height: 50px;
+}
+.menu-items{
+    display: flex;
+    background-color: aliceblue;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.menu-text{
+    margin: 15px;
+    font-size: 20px;
+    
+}
+.menu-items:hover{
+    background-color:rgb(135, 192, 242);
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.content p{
+    font-size:50px;
+    text-align: center;
+    
+}
+.icon-effect{
+    text-decoration: none;
+    color: black;
+}
+
