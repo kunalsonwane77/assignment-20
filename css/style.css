@@ -58,4 +58,39 @@ body{
     text-decoration: none;
     color: black;
 }
+.bottom-navigation-bar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(181, 209, 234);
+    display: none;
 
+    
+}
+.bottom-icon{
+    height: 50px;
+}
+.bottom-menu-icons{
+    margin: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: aliceblue;
+}
+.bottom-menu-icons:hover{
+    background-color:rgb(135, 192, 242);
+    cursor: pointer;
+    padding: 10px;
+
+}
+@media (max-width: 575px){
+    .sidebar{
+        display: none;
+    }
+   .bottom-navigation-bar{
+    display: flex;
+    justify-content: space-evenly;
+
+   }
+
+}
